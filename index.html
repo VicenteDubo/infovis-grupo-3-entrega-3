@@ -1,0 +1,235 @@
+<!-- This is a simple lamp that turns on with a button. See the file button.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lamp</title>
+  </head>
+  <body>
+    <script src="https://cdn.plot.ly/plotly-2.34.0.min.js"></script>
+    <script src="https://app.protobject.com/framework/p.js"></script>
+    <script src="config.js"></script>
+    <script src="heartbeat.js"></script>
+    <script src="audio.js"></script>
+
+    <div id="myDiv" style="width: 100%; max-width: 1000px; height: 600px; margin: 0 auto;"></div>
+    <div id="missingMarkers" style="margin-top: 16px; font-family: sans-serif"></div>
+
+    <!-- Cuadros informativos por país (ocultos por defecto). Se muestran cuando el país está seleccionado/missing -->
+    <div id="countryBoxes" style="display:flex; gap:12px; justify-content:center; align-items:flex-start; margin-top:12px; flex-wrap:wrap;">
+      <div id="box-Albania" class="country-box" style="display:none; width:350px; min-height:140px; border:1px solid #ccc; padding:10px; box-sizing:border-box; font-family: sans-serif;">
+        <strong>Albania</strong>
+        <p style="margin:8px 0 0 0;"><strong>Un caso de eficiencia sorprendente:</strong> Albania logra una esperanza de vida alta con uno de los gastos públicos más bajos de Europa. Su sistema sanitario opera al límite, pero rinde más de lo esperado. Es el ejemplo clásico de “mucho con poco”.</p>
+      </div>
+      <div id="box-Chile" class="country-box" style="display:none; width:350px; min-height:140px; border:1px solid #ccc; padding:10px; box-sizing:border-box; font-family: sans-serif;">
+        <strong>Chile</strong>
+        <p style="margin:8px 0 0 0;"><strong>Indicadores de país desarrollado, financiamiento de país intermedio:</strong> Chile exhibe una esperanza de vida alta a nivel global, pero su gasto público en salud queda muy por debajo del promedio OCDE. Esto refleja un sistema mixto tensionado, con buenos resultados poblacionales pero fuertes brechas de equidad.</p>
+      </div>
+      <div id="box-United States" class="country-box" style="display:none; width:350px; min-height:140px; border:1px solid #ccc; padding:10px; box-sizing:border-box; font-family: sans-serif;">
+        <strong>Estados Unidos</strong>
+        <p style="margin:8px 0 0 0;"><strong>La gran paradoja mundial de la salud:</strong> EE.UU. tiene el mayor gasto sanitario del planeta, pero una esperanza de vida comparativamente baja. Es el ejemplo más citado de ineficiencia: inversión altísima, resultados inconsistentes y profundas desigualdades.</p>
+      </div>
+      <div id="box-Nauru" class="country-box" style="display:none; width:350px; min-height:140px; border:1px solid #ccc; padding:10px; box-sizing:border-box; font-family: sans-serif;">
+        <strong>Nauru</strong>
+        <p style="margin:8px 0 0 0;"><strong>Una crisis de salud a escala nacional:</strong> Nauru enfrenta una de las cargas más altas de obesidad y diabetes del mundo, lo que deprime su esperanza de vida pese a un gasto público elevado para su tamaño. Su realidad sanitaria está marcada por dependencia alimentaria, enfermedades crónicas y vulnerabilidad estructural.</p>
+      </div>
+    </div>
+  </body>
+  <script>
+    // Carga los datos y crea un gráfico de barras simple.
+    fetch('data.json')
+      .then((r) => r.json())
+      .then((data) => {
+        // Filtra entradas válidas y copia para no mutar
+        const rows = data.filter(d => d.LifeExpectancy != null && d.PublicHealthSpendingPerCapita != null).slice();
+
+        // Ordenar por esperanza de vida de menos a más (ascendente)
+        rows.sort((a,b) => a.LifeExpectancy - b.LifeExpectancy);
+
+        // Construir arrays
+        const countries = rows.map(r => r.Country);
+        const lifeExp = rows.map(r => r.LifeExpectancy);
+        const spending = rows.map(r => r.PublicHealthSpendingPerCapita);
+
+        // Colores por defecto
+        const defaultColor = '#4682B4';
+        const highlightColor = '#FF4136';
+        let colors = countries.map(() => defaultColor);
+
+        const trace = {
+          x: countries,
+          y: spending,
+          type: 'bar',
+          marker: { color: colors },
+          hovertemplate: '%{x}<br>LifeExp: %{customdata[0]}<br>Spending: %{y}<extra></extra>',
+          customdata: lifeExp.map(v => [v])
+        };
+
+        const layout = {
+          title: 'Gasto público per cápita vs Esperanza de Vida por País',
+          xaxis: { title: 'Países ordenados por esperanza de vida', automargin: true, tickangle: -45, showticklabels: false },
+          yaxis: { title: 'Gasto Público en Salud per Cápita (USD)' },
+          annotations: []
+        };
+
+        Plotly.newPlot('myDiv', [trace], layout, {responsive: true});
+
+        // Función auxiliar para encontrar country por valor de marker
+        // TEMPORAL: testMarkerMap permite mapear marcadores de prueba a países.
+        const testMarkerMap = {
+          '100': 'Chile',
+          '200': 'Nauru',
+          '300': 'Albania',
+          '400': 'United States'
+        };
+
+        function findCountryForMarker(marker) {
+          const m = String(marker).trim();
+          // 0) Mapeo temporal de prueba (remover después)
+          if (testMarkerMap[m]) return testMarkerMap[m];
+          // 1) Buscar por CODE (código ISO)
+          const byCode = rows.find(r => String(r.CODE).toUpperCase() === m.toUpperCase());
+          if (byCode) return byCode.Country;
+          // 2) Buscar por nombre de país exacto (case-insensitive)
+          const byName = rows.find(r => String(r.Country).toLowerCase() === m.toLowerCase());
+          if (byName) return byName.Country;
+          // 3) si marker es un número, intentar usar como índice (1-based)
+          const n = Number(m);
+          if (!Number.isNaN(n) && n > 0 && Number.isInteger(n) && n <= rows.length) {
+            return rows[n-1].Country;
+          }
+          return null;
+        }
+
+        // Manejo centralizado de 'missing' para poder invocarlo desde pruebas.
+        function handleMissing(missing) {
+          const missingCountries = (missing || []).map(findCountryForMarker).filter(Boolean);
+
+          // Actualiza colores: resaltar los países que faltan (missing)
+          colors = countries.map(c => missingCountries.includes(c) ? highlightColor : defaultColor);
+          Plotly.restyle('myDiv', {'marker.color': [colors]});
+
+          // Crear anotaciones (flechas) apuntando a la cima de la barra (valor de spending)
+          const annotations = missingCountries.map(c => {
+            const idx = countries.indexOf(c);
+            const yVal = idx >= 0 ? spending[idx] : 0;
+            // Ajustar longitud de la flecha hacia arriba: por defecto más larga,
+            // excepto Estados Unidos que se mantiene corta; Chile se alarga bastante.
+            let ayVal = -80; // valor por defecto (flecha más larga)
+            if (c === 'United States') ayVal = -40; // no alargar
+            if (c === 'Chile') ayVal = -165; // alargar bastante para Chile
+            return {
+              x: c,
+              y: yVal,
+              xref: 'x',
+              yref: 'y',
+              text: c,
+              showarrow: true,
+              arrowhead: 3,
+              arrowcolor: highlightColor,
+              font: { color: highlightColor },
+              ay: ayVal,
+              ax: 0,
+              yanchor: 'bottom'
+            };
+          });
+
+          Plotly.relayout('myDiv', {annotations: annotations});
+          // Mostrar los cuadros correspondientes justo debajo del gráfico
+          const allBoxes = ['Albania','Chile','United States','Nauru'];
+          allBoxes.forEach(name => {
+            const el = document.getElementById('box-' + name);
+            if (!el) return;
+            if (missingCountries.includes(name)) el.style.display = 'block';
+            else el.style.display = 'none';
+            // reset border style
+            el.style.borderColor = '#ccc';
+          });
+
+          // Selección automática para audio: tomar hasta dos países de 'missing'
+          // Reemplaza cualquier selección previa (deselecciona automáticamente)
+          selectedCountries.length = 0;
+          const toSelect = missingCountries.slice(0,2);
+          toSelect.forEach((name, i) => {
+            selectedCountries.push(name);
+            const el = document.getElementById('box-' + name);
+            if (el) el.style.borderColor = '#FF4136';
+          });
+
+          // Actualizar audio según la selección automática
+          updateAudioForSelection();
+        }
+
+        // Escucha los datos recibidos desde Protobject y resalta países que están "missing"
+        Protobject.Core.onReceived((payload) => {
+          const missing = Array.isArray(payload) ? [] : payload?.missing || [];
+          handleMissing(missing);
+        });
+
+        // --- TEMPORAL: botones simples para probar cada marker (remover después) ---
+        const testDiv = document.createElement('div');
+        testDiv.style.marginTop = '8px';
+        testDiv.innerHTML = '<strong>Pruebas temporales:</strong> ';
+        ['100','200','300','400'].forEach(code => {
+          const btn = document.createElement('button');
+          btn.textContent = code;
+          btn.style.marginLeft = '6px';
+          btn.onclick = () => handleMissing([code]);
+          testDiv.appendChild(btn);
+        });
+        document.body.appendChild(testDiv);
+        // ---------------------------------------------------------------------------
+
+        // Audio de selección: permitir seleccionar hasta dos países haciendo click en sus cuadros
+        // y reproducir sonidos. Implementación simple: coins.wav paneado a izquierda/derecha.
+        window._sharedAudioCtx = null;
+        window._pannedPlayers = [];
+        const selectedCountries = [];
+
+        function ensureAudioContext() {
+          if (!window._sharedAudioCtx) {
+            window._sharedAudioCtx = new (window.AudioContext || window.webkitAudioContext)();
+          }
+          return window._sharedAudioCtx;
+        }
+
+        function stopPannedPlayers() {
+          try {
+            window._pannedPlayers.forEach(obj => {
+              try { obj.el.pause(); obj.el.src = ''; } catch (e) {}
+              try { if (obj.source) obj.source.disconnect(); } catch (e) {}
+              try { if (obj.panner) obj.panner.disconnect(); } catch (e) {}
+            });
+          } catch (e) {}
+          window._pannedPlayers = [];
+        }
+
+        function updateAudioForSelection() {
+          // Detener todo audio previo
+          AudioManager.stopAllSounds();
+          stopPannedPlayers();
+
+          // Reproducir coins.wav usando la lógica centralizada en AudioManager
+          // (usar solo la primera selección para mantenerlo simple)
+          const first = selectedCountries[0];
+          if (first) {
+            const row = rows.find(r => r.Country === first);
+            if (row) {
+              const maxSpending = Math.max(...spending);
+              AudioManager.playCoinsSound(row.PublicHealthSpendingPerCapita, maxSpending, row.Country);
+              // Reproducir heartbeat con heartbeat.js para la primera seleccionada
+              AudioManager.playBeepSound(row.LifeExpectancy, null, null);
+            }
+          }
+        }
+
+        // Selección manual eliminada: la selección de audio se hace automáticamente
+        // a partir de los marcadores 'missing' recibidos.
+      })
+      .catch((err) => {
+        console.error('Error cargando data.json', err);
+      });
+  </script>
+</html>

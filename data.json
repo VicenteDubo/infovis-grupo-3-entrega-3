@@ -1,0 +1,1739 @@
+[
+   {
+      "Country": "Spain",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 2187,
+      "LifeExpectancy": 83.77,
+      "LifeExpectancyWomen": 86.34,
+      "LifeExpectancyMen": 81.11,
+      "CODE": "ESP"
+   },
+   {
+      "Country": "Germany",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 5459,
+      "LifeExpectancy": 81.10,
+      "LifeExpectancyWomen": 83.50,
+      "LifeExpectancyMen": 78.70,
+      "CODE": "DEU"
+   },
+   {
+      "Country": "United Kingdom",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 4385,
+      "LifeExpectancy": 81.24,
+      "LifeExpectancyWomen": 83.21,
+      "LifeExpectancyMen": 79.36,
+      "CODE": "GBR"
+   },
+   {
+      "Country": "France",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 4149,
+      "LifeExpectancy": 83.00,
+      "LifeExpectancyWomen": 85.70,
+      "LifeExpectancyMen": 80.10,
+      "CODE": "FRA"
+   },
+   {
+      "Country": "Italy",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 2331,
+      "LifeExpectancy": 83.50,
+      "LifeExpectancyWomen": 85.40,
+      "LifeExpectancyMen": 81.40,
+      "CODE": "ITA"
+   },
+   {
+      "Country": "Portugal",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 1707,
+      "LifeExpectancy": 82.50,
+      "LifeExpectancyWomen": 85.30,
+      "LifeExpectancyMen": 79.50,
+      "CODE": "PRT"
+   },
+   {
+      "Country": "United States",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 11458,
+      "LifeExpectancy": 78.39,
+      "LifeExpectancyWomen": 81.10,
+      "LifeExpectancyMen": 75.80,
+      "CODE": "USA"
+   },
+   {
+      "Country": "Japan",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 2706,
+      "LifeExpectancy": 84.04,
+      "LifeExpectancyWomen": 87.14,
+      "LifeExpectancyMen": 81.09,
+      "CODE": "JPN"
+   },
+   {
+      "Country": "China",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 352,
+      "LifeExpectancy": 77.95,
+      "LifeExpectancyWomen": 80.93,
+      "LifeExpectancyMen": 75.20,
+      "CODE": "CHN"
+   },
+   {
+      "Country": "Andorra",
+      "Year": 2023,
+      "PublicHealthSpendingPerCapita": 2403,
+      "LifeExpectancy": 84.60,
+      "LifeExpectancyWomen": 86.90,
+      "LifeExpectancyMen": 82.10,
+      "CODE": "AND"
+   },
+   {
+      "Country": "United Arab Emirates",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 1302,
+      "LifeExpectancy": 82.91,
+      "LifeExpectancyWomen": 84.20,
+      "LifeExpectancyMen": 81.98,
+      "CODE": "ARE"
+   },
+   {
+      "Country": "Afghanistan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 1,
+      "LifeExpectancy": 66.04,
+      "LifeExpectancyWomen": 67.54,
+      "LifeExpectancyMen": 64.47,
+      "CODE": "AFG"
+   },
+   {
+      "Country": "Antigua and Barbuda",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 591,
+      "LifeExpectancy": 77.60,
+      "LifeExpectancyWomen": 80.29,
+      "LifeExpectancyMen": 74.55,
+      "CODE": "ATG"
+   },
+   {
+      "Country": "Albania",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 178,
+      "LifeExpectancy": 79.60,
+      "LifeExpectancyWomen": 81.45,
+      "LifeExpectancyMen": 77.73,
+      "CODE": "ALB"
+   },
+   {
+      "Country": "Armenia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 110,
+      "LifeExpectancy": 77.47,
+      "LifeExpectancyWomen": 81.00,
+      "LifeExpectancyMen": 74.10,
+      "CODE": "ARM"
+   },
+   {
+      "Country": "Angola",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 50,
+      "LifeExpectancy": 64.62,
+      "LifeExpectancyWomen": 67.14,
+      "LifeExpectancyMen": 62.10,
+      "CODE": "AGO"
+   },
+   {
+      "Country": "Argentina",
+      "Year": 2023,
+      "PublicHealthSpendingPerCapita": 827,
+      "LifeExpectancy": 77.40,
+      "LifeExpectancyWomen": 79.88,
+      "LifeExpectancyMen": 74.81,
+      "CODE": "ARG"
+   },
+   {
+      "Country": "Austria",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 4749,
+      "LifeExpectancy": 81.90,
+      "LifeExpectancyWomen": 84.20,
+      "LifeExpectancyMen": 79.50,
+      "CODE": "AUT"
+   },
+   {
+      "Country": "Australia",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 4648,
+      "LifeExpectancy": 83.05,
+      "LifeExpectancyWomen": 85.10,
+      "LifeExpectancyMen": 81.10,
+      "CODE": "AUS"
+   },
+   {
+      "Country": "Azerbaijan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 87,
+      "LifeExpectancy": 74.43,
+      "LifeExpectancyWomen": 77.13,
+      "LifeExpectancyMen": 71.56,
+      "CODE": "AZE"
+   },
+   {
+      "Country": "Bosnia and Herzegovina",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 417,
+      "LifeExpectancy": 77.85,
+      "LifeExpectancyWomen": 80.90,
+      "LifeExpectancyMen": 74.42,
+      "CODE": "BIH"
+   },
+   {
+      "Country": "Barbados",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 557,
+      "LifeExpectancy": 76.18,
+      "LifeExpectancyWomen": 78.62,
+      "LifeExpectancyMen": 73.63,
+      "CODE": "BRB"
+   },
+   {
+      "Country": "Bangladesh",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 4,
+      "LifeExpectancy": 74.67,
+      "LifeExpectancyWomen": 76.37,
+      "LifeExpectancyMen": 73.03,
+      "CODE": "BGD"
+   },
+   {
+      "Country": "Belgium",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 4208,
+      "LifeExpectancy": 82.50,
+      "LifeExpectancyWomen": 84.50,
+      "LifeExpectancyMen": 80.40,
+      "CODE": "BEL"
+   },
+   {
+      "Country": "Burkina Faso",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 22,
+      "LifeExpectancy": 61.09,
+      "LifeExpectancyWomen": 63.22,
+      "LifeExpectancyMen": 58.92,
+      "CODE": "BFA"
+   },
+   {
+      "Country": "Bulgaria",
+      "Year": 2023,
+      "PublicHealthSpendingPerCapita": 733,
+      "LifeExpectancy": 75.80,
+      "LifeExpectancyWomen": 79.70,
+      "LifeExpectancyMen": 72.00,
+      "CODE": "BGR"
+   },
+   {
+      "Country": "Bahrain",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 685,
+      "LifeExpectancy": 81.28,
+      "LifeExpectancyWomen": 81.99,
+      "LifeExpectancyMen": 80.67,
+      "CODE": "BHR"
+   },
+   {
+      "Country": "Burundi",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 4,
+      "LifeExpectancy": 63.65,
+      "LifeExpectancyWomen": 65.70,
+      "LifeExpectancyMen": 61.60,
+      "CODE": "BDI"
+   },
+   {
+      "Country": "Benin",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 6,
+      "LifeExpectancy": 60.77,
+      "LifeExpectancyWomen": 62.21,
+      "LifeExpectancyMen": 59.35,
+      "CODE": "BEN"
+   },
+   {
+      "Country": "Brunei",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 584,
+      "LifeExpectancy": 75.33,
+      "LifeExpectancyWomen": 77.56,
+      "LifeExpectancyMen": 73.33,
+      "CODE": "BRN"
+   },
+   {
+      "Country": "Bolivia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 205,
+      "LifeExpectancy": 68.58,
+      "LifeExpectancyWomen": 71.15,
+      "LifeExpectancyMen": 66.13,
+      "CODE": "BOL"
+   },
+   {
+      "Country": "Brazil",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 367,
+      "LifeExpectancy": 75.85,
+      "LifeExpectancyWomen": 78.98,
+      "LifeExpectancyMen": 72.76,
+      "CODE": "BRA"
+   },
+   {
+      "Country": "Bahamas",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 1253,
+      "LifeExpectancy": 74.55,
+      "LifeExpectancyWomen": 78.19,
+      "LifeExpectancyMen": 70.91,
+      "CODE": "BHS"
+   },
+   {
+      "Country": "Bhutan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 72,
+      "LifeExpectancy": 72.98,
+      "LifeExpectancyWomen": 74.97,
+      "LifeExpectancyMen": 71.31,
+      "CODE": "BTN"
+   },
+   {
+      "Country": "Botswana",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 342,
+      "LifeExpectancy": 69.16,
+      "LifeExpectancyWomen": 71.70,
+      "LifeExpectancyMen": 66.67,
+      "CODE": "BWA"
+   },
+   {
+      "Country": "Belarus",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 339,
+      "LifeExpectancy": 74.18,
+      "LifeExpectancyWomen": 79.07,
+      "LifeExpectancyMen": 69.54,
+      "CODE": "BLR"
+   },
+   {
+      "Country": "Belize",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 176,
+      "LifeExpectancy": 73.57,
+      "LifeExpectancyWomen": 76.50,
+      "LifeExpectancyMen": 70.93,
+      "CODE": "BLZ"
+   },
+   {
+      "Country": "Canada",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 3981,
+      "LifeExpectancy": 81.65,
+      "LifeExpectancyWomen": 83.89,
+      "LifeExpectancyMen": 79.51,
+      "CODE": "CAN"
+   },
+   {
+      "Country": "Congo (Kinshasa)",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 4,
+      "LifeExpectancy": 61.90,
+      "LifeExpectancyWomen": 64.04,
+      "LifeExpectancyMen": 59.79,
+      "CODE": "COD"
+   },
+   {
+      "Country": "Central African Republic",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 7,
+      "LifeExpectancy": 57.41,
+      "LifeExpectancyWomen": 59.29,
+      "LifeExpectancyMen": 55.26,
+      "CODE": "CAF"
+   },
+   {
+      "Country": "Congo (Brazzaville)",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 18,
+      "LifeExpectancy": 65.77,
+      "LifeExpectancyWomen": 67.46,
+      "LifeExpectancyMen": 64.12,
+      "CODE": "COG"
+   },
+   {
+      "Country": "Switzerland",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 7727,
+      "LifeExpectancy": 84.30,
+      "LifeExpectancyWomen": 86.00,
+      "LifeExpectancyMen": 82.40,
+      "CODE": "CHE"
+   },
+   {
+      "Country": "Cote d'Ivoire",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 30,
+      "LifeExpectancy": 61.94,
+      "LifeExpectancyWomen": 64.13,
+      "LifeExpectancyMen": 60.02,
+      "CODE": "CIV"
+   },
+   {
+      "Country": "Chile",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 882,
+      "LifeExpectancy": 81.17,
+      "LifeExpectancyWomen": 83.08,
+      "LifeExpectancyMen": 79.24,
+      "CODE": "CHL"
+   },
+   {
+      "Country": "Cameroon",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 10,
+      "LifeExpectancy": 63.70,
+      "LifeExpectancyWomen": 65.94,
+      "LifeExpectancyMen": 61.52,
+      "CODE": "CMR"
+   },
+   {
+      "Country": "Colombia",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 455,
+      "LifeExpectancy": 77.73,
+      "LifeExpectancyWomen": 80.45,
+      "LifeExpectancyMen": 74.95,
+      "CODE": "COL"
+   },
+   {
+      "Country": "Costa Rica",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 836,
+      "LifeExpectancy": 80.80,
+      "LifeExpectancyWomen": 83.42,
+      "LifeExpectancyMen": 78.13,
+      "CODE": "CRI"
+   },
+   {
+      "Country": "Cuba",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 5234,
+      "LifeExpectancy": 78.09,
+      "LifeExpectancyWomen": 80.52,
+      "LifeExpectancyMen": 75.67,
+      "CODE": "CUB"
+   },
+   {
+      "Country": "Cape Verde",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 174,
+      "LifeExpectancy": 76.06,
+      "LifeExpectancyWomen": 79.21,
+      "LifeExpectancyMen": 72.86,
+      "CODE": "CPV"
+   },
+   {
+      "Country": "Cyprus",
+      "Year": 2023,
+      "PublicHealthSpendingPerCapita": 2042,
+      "LifeExpectancy": 82.90,
+      "LifeExpectancyWomen": 84.90,
+      "LifeExpectancyMen": 80.90,
+      "CODE": "CYP"
+   },
+   {
+      "Country": "Czechia",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 2117,
+      "LifeExpectancy": 79.90,
+      "LifeExpectancyWomen": 82.90,
+      "LifeExpectancyMen": 76.90,
+      "CODE": "CZE"
+   },
+   {
+      "Country": "Djibouti",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 32,
+      "LifeExpectancy": 65.99,
+      "LifeExpectancyWomen": 68.51,
+      "LifeExpectancyMen": 63.53,
+      "CODE": "DJI"
+   },
+   {
+      "Country": "Denmark",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 5216,
+      "LifeExpectancy": 81.80,
+      "LifeExpectancyWomen": 83.70,
+      "LifeExpectancyMen": 79.90,
+      "CODE": "DNK"
+   },
+   {
+      "Country": "Dominica",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 389,
+      "LifeExpectancy": 71.13,
+      "LifeExpectancyWomen": 74.55,
+      "LifeExpectancyMen": 68.21,
+      "CODE": "DMA"
+   },
+   {
+      "Country": "Dominican Republic",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 256,
+      "LifeExpectancy": 73.72,
+      "LifeExpectancyWomen": 76.98,
+      "LifeExpectancyMen": 70.53,
+      "CODE": "DOM"
+   },
+   {
+      "Country": "Algeria",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 81,
+      "LifeExpectancy": 76.26,
+      "LifeExpectancyWomen": 77.70,
+      "LifeExpectancyMen": 74.90,
+      "CODE": "DZA"
+   },
+   {
+      "Country": "Ecuador",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 286,
+      "LifeExpectancy": 77.39,
+      "LifeExpectancyWomen": 80.14,
+      "LifeExpectancyMen": 74.66,
+      "CODE": "ECU"
+   },
+   {
+      "Country": "Estonia",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 1666,
+      "LifeExpectancy": 79.10,
+      "LifeExpectancyWomen": 83.30,
+      "LifeExpectancyMen": 74.50,
+      "CODE": "EST"
+   },
+   {
+      "Country": "Egypt",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 61,
+      "LifeExpectancy": 71.63,
+      "LifeExpectancyWomen": 73.81,
+      "LifeExpectancyMen": 69.49,
+      "CODE": "EGY"
+   },
+   {
+      "Country": "Eritrea",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 6,
+      "LifeExpectancy": 68.62,
+      "LifeExpectancyWomen": 70.66,
+      "LifeExpectancyMen": 66.51,
+      "CODE": "ERI"
+   },
+   {
+      "Country": "Ethiopia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 6,
+      "LifeExpectancy": 67.32,
+      "LifeExpectancyWomen": 70.73,
+      "LifeExpectancyMen": 64.08,
+      "CODE": "ETH"
+   },
+   {
+      "Country": "Finland",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 4265,
+      "LifeExpectancy": 81.60,
+      "LifeExpectancyWomen": 84.30,
+      "LifeExpectancyMen": 79.00,
+      "CODE": "FIN"
+   },
+   {
+      "Country": "Fiji",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 769,
+      "LifeExpectancy": 67.32,
+      "LifeExpectancyWomen": 69.36,
+      "LifeExpectancyMen": 65.34,
+      "CODE": "FJI"
+   },
+   {
+      "Country": "Micronesia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 41,
+      "LifeExpectancy": 67.20,
+      "LifeExpectancyWomen": 71.12,
+      "LifeExpectancyMen": 63.49,
+      "CODE": "FSM"
+   },
+   {
+      "Country": "Gabon",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 151,
+      "LifeExpectancy": 68.34,
+      "LifeExpectancyWomen": 71.05,
+      "LifeExpectancyMen": 65.91,
+      "CODE": "GAB"
+   },
+   {
+      "Country": "Grenada",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 200,
+      "LifeExpectancy": 75.21,
+      "LifeExpectancyWomen": 78.36,
+      "LifeExpectancyMen": 72.36,
+      "CODE": "GRD"
+   },
+   {
+      "Country": "Georgia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 191,
+      "LifeExpectancy": 73.70,
+      "LifeExpectancyWomen": 77.50,
+      "LifeExpectancyMen": 69.90,
+      "CODE": "GEO"
+   },
+   {
+      "Country": "Ghana",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 44,
+      "LifeExpectancy": 65.50,
+      "LifeExpectancyWomen": 67.94,
+      "LifeExpectancyMen": 63.13,
+      "CODE": "GHA"
+   },
+   {
+      "Country": "Gambia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 12,
+      "LifeExpectancy": 65.86,
+      "LifeExpectancyWomen": 67.53,
+      "LifeExpectancyMen": 64.17,
+      "CODE": "GMB"
+   },
+   {
+      "Country": "Guinea",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 10,
+      "LifeExpectancy": 60.74,
+      "LifeExpectancyWomen": 61.90,
+      "LifeExpectancyMen": 59.52,
+      "CODE": "GIN"
+   },
+   {
+      "Country": "Equatorial Guinea",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 47,
+      "LifeExpectancy": 63.71,
+      "LifeExpectancyWomen": 65.66,
+      "LifeExpectancyMen": 62.04,
+      "CODE": "GNQ"
+   },
+   {
+      "Country": "Greece",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 1106,
+      "LifeExpectancy": 81.80,
+      "LifeExpectancyWomen": 84.40,
+      "LifeExpectancyMen": 79.20,
+      "CODE": "GRC"
+   },
+   {
+      "Country": "Guatemala",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 123,
+      "LifeExpectancy": 72.60,
+      "LifeExpectancyWomen": 74.88,
+      "LifeExpectancyMen": 70.31,
+      "CODE": "GTM"
+   },
+   {
+      "Country": "Guinea-Bissau",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 9,
+      "LifeExpectancy": 64.09,
+      "LifeExpectancyWomen": 66.36,
+      "LifeExpectancyMen": 61.66,
+      "CODE": "GNB"
+   },
+   {
+      "Country": "Guyana",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 362,
+      "LifeExpectancy": 70.18,
+      "LifeExpectancyWomen": 73.94,
+      "LifeExpectancyMen": 66.51,
+      "CODE": "GUY"
+   },
+   {
+      "Country": "Honduras",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 97,
+      "LifeExpectancy": 72.88,
+      "LifeExpectancyWomen": 75.50,
+      "LifeExpectancyMen": 70.35,
+      "CODE": "HND"
+   },
+   {
+      "Country": "Croatia",
+      "Year": 2023,
+      "PublicHealthSpendingPerCapita": 1229,
+      "LifeExpectancy": 78.60,
+      "LifeExpectancyWomen": 81.80,
+      "LifeExpectancyMen": 75.50,
+      "CODE": "HRV"
+   },
+   {
+      "Country": "Haiti",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 5,
+      "LifeExpectancy": 64.94,
+      "LifeExpectancyWomen": 68.30,
+      "LifeExpectancyMen": 61.73,
+      "CODE": "HTI"
+   },
+   {
+      "Country": "Hungary",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 1024,
+      "LifeExpectancy": 76.70,
+      "LifeExpectancyWomen": 79.90,
+      "LifeExpectancyMen": 73.40,
+      "CODE": "HUN"
+   },
+   {
+      "Country": "Indonesia",
+      "Year": 2023,
+      "PublicHealthSpendingPerCapita": 66,
+      "LifeExpectancy": 71.15,
+      "LifeExpectancyWomen": 73.27,
+      "LifeExpectancyMen": 69.04,
+      "CODE": "IDN"
+   },
+   {
+      "Country": "Ireland",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 5306,
+      "LifeExpectancy": 82.90,
+      "LifeExpectancyWomen": 84.60,
+      "LifeExpectancyMen": 81.10,
+      "CODE": "IRL"
+   },
+   {
+      "Country": "Israel",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 2678,
+      "LifeExpectancy": 83.20,
+      "LifeExpectancyWomen": 85.50,
+      "LifeExpectancyMen": 81.00,
+      "CODE": "ISR"
+   },
+   {
+      "Country": "India",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 30,
+      "LifeExpectancy": 72.00,
+      "LifeExpectancyWomen": 73.60,
+      "LifeExpectancyMen": 70.52,
+      "CODE": "IND"
+   },
+   {
+      "Country": "Iraq",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 123,
+      "LifeExpectancy": 72.32,
+      "LifeExpectancyWomen": 74.06,
+      "LifeExpectancyMen": 70.43,
+      "CODE": "IRQ"
+   },
+   {
+      "Country": "Iran",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 676,
+      "LifeExpectancy": 77.65,
+      "LifeExpectancyWomen": 79.63,
+      "LifeExpectancyMen": 75.79,
+      "CODE": "IRN"
+   },
+   {
+      "Country": "Iceland",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 6044,
+      "LifeExpectancy": 82.40,
+      "LifeExpectancyWomen": 84.30,
+      "LifeExpectancyMen": 80.70,
+      "CODE": "ISL"
+   },
+   {
+      "Country": "Jamaica",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 339,
+      "LifeExpectancy": 71.48,
+      "LifeExpectancyWomen": 73.99,
+      "LifeExpectancyMen": 68.98,
+      "CODE": "JAM"
+   },
+   {
+      "Country": "Jordan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 0,
+      "LifeExpectancy": 77.81,
+      "LifeExpectancyWomen": 80.19,
+      "LifeExpectancyMen": 75.71,
+      "CODE": "JOR"
+   },
+   {
+      "Country": "Kenya",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 40,
+      "LifeExpectancy": 63.65,
+      "LifeExpectancyWomen": 65.92,
+      "LifeExpectancyMen": 61.46,
+      "CODE": "KEN"
+   },
+   {
+      "Country": "Kyrgyzstan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 44,
+      "LifeExpectancy": 72.25,
+      "LifeExpectancyWomen": 76.50,
+      "LifeExpectancyMen": 68.20,
+      "CODE": "KGZ"
+   },
+   {
+      "Country": "Cambodia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 26,
+      "LifeExpectancy": 70.67,
+      "LifeExpectancyWomen": 73.19,
+      "LifeExpectancyMen": 68.01,
+      "CODE": "KHM"
+   },
+   {
+      "Country": "Kiribati",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 167,
+      "LifeExpectancy": 66.47,
+      "LifeExpectancyWomen": 68.17,
+      "LifeExpectancyMen": 64.58,
+      "CODE": "KIR"
+   },
+   {
+      "Country": "Comoros",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 12,
+      "LifeExpectancy": 66.78,
+      "LifeExpectancyWomen": 68.93,
+      "LifeExpectancyMen": 64.79,
+      "CODE": "COM"
+   },
+   {
+      "Country": "Saint Kitts and Nevis",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 580,
+      "LifeExpectancy": 72.15,
+      "LifeExpectancyWomen": 76.02,
+      "LifeExpectancyMen": 68.57,
+      "CODE": "KNA"
+   },
+   {
+      "Country": "North Korea",
+      "Year": 1999,
+      "PublicHealthSpendingPerCapita": 12,
+      "LifeExpectancy": 73.64,
+      "LifeExpectancyWomen": 75.74,
+      "LifeExpectancyMen": 71.46,
+      "CODE": "PRK"
+   },
+   {
+      "Country": "South Korea",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 1674,
+      "LifeExpectancy": 83.50,
+      "LifeExpectancyWomen": 86.40,
+      "LifeExpectancyMen": 80.60,
+      "CODE": "KOR"
+   },
+   {
+      "Country": "Kuwait",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 1409,
+      "LifeExpectancy": 83.19,
+      "LifeExpectancyWomen": 83.70,
+      "LifeExpectancyMen": 82.70,
+      "CODE": "KWT"
+   },
+   {
+      "Country": "Kazakhstan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 246,
+      "LifeExpectancy": 74.40,
+      "LifeExpectancyWomen": 78.39,
+      "LifeExpectancyMen": 70.11,
+      "CODE": "KAZ"
+   },
+   {
+      "Country": "Laos",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 12,
+      "LifeExpectancy": 68.96,
+      "LifeExpectancyWomen": 71.25,
+      "LifeExpectancyMen": 66.78,
+      "CODE": "LAO"
+   },
+   {
+      "Country": "Lebanon",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 1182,
+      "LifeExpectancy": 77.82,
+      "LifeExpectancyWomen": 79.73,
+      "LifeExpectancyMen": 75.74,
+      "CODE": "LBN"
+   },
+   {
+      "Country": "Saint Lucia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 260,
+      "LifeExpectancy": 72.70,
+      "LifeExpectancyWomen": 76.30,
+      "LifeExpectancyMen": 69.31,
+      "CODE": "LCA"
+   },
+   {
+      "Country": "Sri Lanka",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 56,
+      "LifeExpectancy": 77.48,
+      "LifeExpectancyWomen": 80.59,
+      "LifeExpectancyMen": 74.24,
+      "CODE": "LKA"
+   },
+   {
+      "Country": "Liberia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 9,
+      "LifeExpectancy": 62.16,
+      "LifeExpectancyWomen": 63.44,
+      "LifeExpectancyMen": 60.88,
+      "CODE": "LBR"
+   },
+   {
+      "Country": "Lesotho",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 64,
+      "LifeExpectancy": 57.38,
+      "LifeExpectancyWomen": 60.01,
+      "LifeExpectancyMen": 54.62,
+      "CODE": "LSO"
+   },
+   {
+      "Country": "Lithuania",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 1260,
+      "LifeExpectancy": 77.60,
+      "LifeExpectancyWomen": 81.90,
+      "LifeExpectancyMen": 72.90,
+      "CODE": "LTU"
+   },
+   {
+      "Country": "Luxembourg",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 6475,
+      "LifeExpectancy": 83.40,
+      "LifeExpectancyWomen": 85.00,
+      "LifeExpectancyMen": 81.70,
+      "CODE": "LUX"
+   },
+   {
+      "Country": "Latvia",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 987,
+      "LifeExpectancy": 75.60,
+      "LifeExpectancyWomen": 80.60,
+      "LifeExpectancyMen": 70.50,
+      "CODE": "LVA"
+   },
+   {
+      "Country": "Libya",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 179,
+      "LifeExpectancy": 69.34,
+      "LifeExpectancyWomen": 70.42,
+      "LifeExpectancyMen": 68.27,
+      "CODE": "LBY"
+   },
+   {
+      "Country": "Morocco",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 78,
+      "LifeExpectancy": 75.31,
+      "LifeExpectancyWomen": 77.60,
+      "LifeExpectancyMen": 73.17,
+      "CODE": "MAR"
+   },
+   {
+      "Country": "Monaco",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 6309,
+      "LifeExpectancy": 86.37,
+      "LifeExpectancyWomen": 88.50,
+      "LifeExpectancyMen": 84.45,
+      "CODE": "MCO"
+   },
+   {
+      "Country": "Moldova",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 245,
+      "LifeExpectancy": 71.90,
+      "LifeExpectancyWomen": 76.40,
+      "LifeExpectancyMen": 67.50,
+      "CODE": "MDA"
+   },
+   {
+      "Country": "Montenegro",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 663,
+      "LifeExpectancy": 77.60,
+      "LifeExpectancyWomen": 80.20,
+      "LifeExpectancyMen": 75.10,
+      "CODE": "MNE"
+   },
+   {
+      "Country": "Madagascar",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 4,
+      "LifeExpectancy": 63.63,
+      "LifeExpectancyWomen": 65.38,
+      "LifeExpectancyMen": 61.94,
+      "CODE": "MDG"
+   },
+   {
+      "Country": "Marshall Islands",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 271,
+      "LifeExpectancy": 66.95,
+      "LifeExpectancyWomen": 69.33,
+      "LifeExpectancyMen": 64.93,
+      "CODE": "MHL"
+   },
+   {
+      "Country": "North Macedonia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 303,
+      "LifeExpectancy": 75.32,
+      "LifeExpectancyWomen": 77.58,
+      "LifeExpectancyMen": 73.16,
+      "CODE": "MKD"
+   },
+   {
+      "Country": "Mali",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 11,
+      "LifeExpectancy": 60.44,
+      "LifeExpectancyWomen": 61.90,
+      "LifeExpectancyMen": 59.04,
+      "CODE": "MLI"
+   },
+   {
+      "Country": "Myanmar",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 6,
+      "LifeExpectancy": 66.89,
+      "LifeExpectancyWomen": 70.16,
+      "LifeExpectancyMen": 63.79,
+      "CODE": "MMR"
+   },
+   {
+      "Country": "Mongolia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 150,
+      "LifeExpectancy": 72.12,
+      "LifeExpectancyWomen": 76.85,
+      "LifeExpectancyMen": 67.62,
+      "CODE": "MNG"
+   },
+   {
+      "Country": "Mauritania",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 34,
+      "LifeExpectancy": 68.48,
+      "LifeExpectancyWomen": 70.48,
+      "LifeExpectancyMen": 66.50,
+      "CODE": "MRT"
+   },
+   {
+      "Country": "Malta",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 2096,
+      "LifeExpectancy": 83.40,
+      "LifeExpectancyWomen": 85.20,
+      "LifeExpectancyMen": 81.60,
+      "CODE": "MLT"
+   },
+   {
+      "Country": "Mauritius",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 265,
+      "LifeExpectancy": 73.41,
+      "LifeExpectancyWomen": 76.89,
+      "LifeExpectancyMen": 70.10,
+      "CODE": "MUS"
+   },
+   {
+      "Country": "Maldives",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 854,
+      "LifeExpectancy": 81.04,
+      "LifeExpectancyWomen": 82.82,
+      "LifeExpectancyMen": 79.69,
+      "CODE": "MDV"
+   },
+   {
+      "Country": "Malawi",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 5,
+      "LifeExpectancy": 67.35,
+      "LifeExpectancyWomen": 70.56,
+      "LifeExpectancyMen": 64.07,
+      "CODE": "MWI"
+   },
+   {
+      "Country": "Mexico",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 392,
+      "LifeExpectancy": 75.07,
+      "LifeExpectancyWomen": 77.81,
+      "LifeExpectancyMen": 72.24,
+      "CODE": "MEX"
+   },
+   {
+      "Country": "Malaysia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 220,
+      "LifeExpectancy": 76.66,
+      "LifeExpectancyWomen": 79.37,
+      "LifeExpectancyMen": 74.27,
+      "CODE": "MYS"
+   },
+   {
+      "Country": "Mozambique",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 14,
+      "LifeExpectancy": 63.61,
+      "LifeExpectancyWomen": 66.54,
+      "LifeExpectancyMen": 60.30,
+      "CODE": "MOZ"
+   },
+   {
+      "Country": "Namibia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 176,
+      "LifeExpectancy": 67.39,
+      "LifeExpectancyWomen": 71.34,
+      "LifeExpectancyMen": 63.33,
+      "CODE": "NAM"
+   },
+   {
+      "Country": "Niger",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 9,
+      "LifeExpectancy": 61.18,
+      "LifeExpectancyWomen": 62.13,
+      "LifeExpectancyMen": 60.26,
+      "CODE": "NER"
+   },
+   {
+      "Country": "Nigeria",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 13,
+      "LifeExpectancy": 54.46,
+      "LifeExpectancyWomen": 54.74,
+      "LifeExpectancyMen": 54.18,
+      "CODE": "NGA"
+   },
+   {
+      "Country": "Nicaragua",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 114,
+      "LifeExpectancy": 74.95,
+      "LifeExpectancyWomen": 77.42,
+      "LifeExpectancyMen": 72.31,
+      "CODE": "NIC"
+   },
+   {
+      "Country": "Netherlands",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 5260,
+      "LifeExpectancy": 81.90,
+      "LifeExpectancyWomen": 83.40,
+      "LifeExpectancyMen": 80.40,
+      "CODE": "NLD"
+   },
+   {
+      "Country": "Norway",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 6711,
+      "LifeExpectancy": 83.10,
+      "LifeExpectancyWomen": 84.60,
+      "LifeExpectancyMen": 81.50,
+      "CODE": "NOR"
+   },
+   {
+      "Country": "Nepal",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 27,
+      "LifeExpectancy": 70.35,
+      "LifeExpectancyWomen": 71.84,
+      "LifeExpectancyMen": 68.84,
+      "CODE": "NPL"
+   },
+   {
+      "Country": "Nauru",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 1870,
+      "LifeExpectancy": 62.11,
+      "LifeExpectancyWomen": 64.00,
+      "LifeExpectancyMen": 60.28,
+      "CODE": "NRU"
+   },
+   {
+      "Country": "New Zealand",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 4053,
+      "LifeExpectancy": 83.00,
+      "LifeExpectancyWomen": 84.90,
+      "LifeExpectancyMen": 81.20,
+      "CODE": "NZL"
+   },
+   {
+      "Country": "Oman",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 566,
+      "LifeExpectancy": 80.03,
+      "LifeExpectancyWomen": 81.88,
+      "LifeExpectancyMen": 78.49,
+      "CODE": "OMN"
+   },
+   {
+      "Country": "Panama",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 786,
+      "LifeExpectancy": 79.59,
+      "LifeExpectancyWomen": 82.56,
+      "LifeExpectancyMen": 76.65,
+      "CODE": "PAN"
+   },
+   {
+      "Country": "Peru",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 271,
+      "LifeExpectancy": 77.74,
+      "LifeExpectancyWomen": 80.12,
+      "LifeExpectancyMen": 75.41,
+      "CODE": "PER"
+   },
+   {
+      "Country": "Papua New Guinea",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 45,
+      "LifeExpectancy": 66.13,
+      "LifeExpectancyWomen": 69.09,
+      "LifeExpectancyMen": 63.74,
+      "CODE": "PNG"
+   },
+   {
+      "Country": "Philippines",
+      "Year": 2023,
+      "PublicHealthSpendingPerCapita": 76,
+      "LifeExpectancy": 69.83,
+      "LifeExpectancyWomen": 72.82,
+      "LifeExpectancyMen": 66.89,
+      "CODE": "PHL"
+   },
+   {
+      "Country": "Pakistan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 14,
+      "LifeExpectancy": 67.65,
+      "LifeExpectancyWomen": 70.16,
+      "LifeExpectancyMen": 65.33,
+      "CODE": "PAK"
+   },
+   {
+      "Country": "Poland",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 1453,
+      "LifeExpectancy": 78.40,
+      "LifeExpectancyWomen": 82.10,
+      "LifeExpectancyMen": 74.60,
+      "CODE": "POL"
+   },
+   {
+      "Country": "Palestine",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 40,
+      "LifeExpectancy": 65.17,
+      "LifeExpectancyWomen": 71.50,
+      "LifeExpectancyMen": 59.69,
+      "CODE": "PSE"
+   },
+   {
+      "Country": "Palau",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 763,
+      "LifeExpectancy": 69.27,
+      "LifeExpectancyWomen": 71.80,
+      "LifeExpectancyMen": 67.15,
+      "CODE": "PLW"
+   },
+   {
+      "Country": "Paraguay",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 241,
+      "LifeExpectancy": 73.84,
+      "LifeExpectancyWomen": 76.95,
+      "LifeExpectancyMen": 70.89,
+      "CODE": "PRY"
+   },
+   {
+      "Country": "Qatar",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 1391,
+      "LifeExpectancy": 82.37,
+      "LifeExpectancyWomen": 83.37,
+      "LifeExpectancyMen": 81.61,
+      "CODE": "QAT"
+   },
+   {
+      "Country": "Romania",
+      "Year": 2023,
+      "PublicHealthSpendingPerCapita": 753,
+      "LifeExpectancy": 76.40,
+      "LifeExpectancyWomen": 80.40,
+      "LifeExpectancyMen": 72.60,
+      "CODE": "ROU"
+   },
+   {
+      "Country": "Serbia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 529,
+      "LifeExpectancy": 76.20,
+      "LifeExpectancyWomen": 78.60,
+      "LifeExpectancyMen": 73.80,
+      "CODE": "SRB"
+   },
+   {
+      "Country": "Russia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 720,
+      "LifeExpectancy": 73.25,
+      "LifeExpectancyWomen": 78.73,
+      "LifeExpectancyMen": 68.04,
+      "CODE": "RUS"
+   },
+   {
+      "Country": "Rwanda",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 26,
+      "LifeExpectancy": 67.79,
+      "LifeExpectancyWomen": 69.89,
+      "LifeExpectancyMen": 65.49,
+      "CODE": "RWA"
+   },
+   {
+      "Country": "Saudi Arabia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 1184,
+      "LifeExpectancy": 78.73,
+      "LifeExpectancyWomen": 81.16,
+      "LifeExpectancyMen": 77.10,
+      "CODE": "SAU"
+   },
+   {
+      "Country": "Solomon Islands",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 63,
+      "LifeExpectancy": 70.53,
+      "LifeExpectancyWomen": 71.98,
+      "LifeExpectancyMen": 69.22,
+      "CODE": "SLB"
+   },
+   {
+      "Country": "Seychelles",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 487,
+      "LifeExpectancy": 74.96,
+      "LifeExpectancyWomen": 78.80,
+      "LifeExpectancyMen": 71.30,
+      "CODE": "SYC"
+   },
+   {
+      "Country": "Sudan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 8,
+      "LifeExpectancy": 66.33,
+      "LifeExpectancyWomen": 69.63,
+      "LifeExpectancyMen": 63.27,
+      "CODE": "SDN"
+   },
+   {
+      "Country": "Sweden",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 5134,
+      "LifeExpectancy": 83.40,
+      "LifeExpectancyWomen": 85.00,
+      "LifeExpectancyMen": 81.70,
+      "CODE": "SWE"
+   },
+   {
+      "Country": "Singapore",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 2324,
+      "LifeExpectancy": 82.90,
+      "LifeExpectancyWomen": 85.20,
+      "LifeExpectancyMen": 80.70,
+      "CODE": "SGP"
+   },
+   {
+      "Country": "Slovenia",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 2708,
+      "LifeExpectancy": 82.00,
+      "LifeExpectancyWomen": 84.90,
+      "LifeExpectancyMen": 79.10,
+      "CODE": "SVN"
+   },
+   {
+      "Country": "Slovakia",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 1641,
+      "LifeExpectancy": 78.20,
+      "LifeExpectancyWomen": 81.50,
+      "LifeExpectancyMen": 74.90,
+      "CODE": "SVK"
+   },
+   {
+      "Country": "Sierra Leone",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 7,
+      "LifeExpectancy": 61.79,
+      "LifeExpectancyWomen": 63.50,
+      "LifeExpectancyMen": 60.07,
+      "CODE": "SLE"
+   },
+   {
+      "Country": "San Marino",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 3263,
+      "LifeExpectancy": 85.71,
+      "LifeExpectancyWomen": 87.10,
+      "LifeExpectancyMen": 84.21,
+      "CODE": "SMR"
+   },
+   {
+      "Country": "Senegal",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 13,
+      "LifeExpectancy": 68.68,
+      "LifeExpectancyWomen": 70.75,
+      "LifeExpectancyMen": 66.79,
+      "CODE": "SEN"
+   },
+   {
+      "Country": "Somalia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 1,
+      "LifeExpectancy": 58.82,
+      "LifeExpectancyWomen": 61.39,
+      "LifeExpectancyMen": 56.35,
+      "CODE": "SOM"
+   },
+   {
+      "Country": "Suriname",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 214,
+      "LifeExpectancy": 73.63,
+      "LifeExpectancyWomen": 76.84,
+      "LifeExpectancyMen": 70.46,
+      "CODE": "SUR"
+   },
+   {
+      "Country": "South Sudan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 4,
+      "LifeExpectancy": 57.62,
+      "LifeExpectancyWomen": 60.63,
+      "LifeExpectancyMen": 54.64,
+      "CODE": "SSD"
+   },
+   {
+      "Country": "Sao Tome and Principe",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 95,
+      "LifeExpectancy": 69.72,
+      "LifeExpectancyWomen": 73.73,
+      "LifeExpectancyMen": 66.24,
+      "CODE": "STP"
+   },
+   {
+      "Country": "El Salvador",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 296,
+      "LifeExpectancy": 72.10,
+      "LifeExpectancyWomen": 76.26,
+      "LifeExpectancyMen": 67.52,
+      "CODE": "SLV"
+   },
+   {
+      "Country": "Syria",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 11,
+      "LifeExpectancy": 72.12,
+      "LifeExpectancyWomen": 74.41,
+      "LifeExpectancyMen": 69.83,
+      "CODE": "SYR"
+   },
+   {
+      "Country": "Eswatini",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 121,
+      "LifeExpectancy": 64.12,
+      "LifeExpectancyWomen": 66.95,
+      "LifeExpectancyMen": 61.19,
+      "CODE": "SWZ"
+   },
+   {
+      "Country": "Chad",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 8,
+      "LifeExpectancy": 55.07,
+      "LifeExpectancyWomen": 57.01,
+      "LifeExpectancyMen": 53.20,
+      "CODE": "TCD"
+   },
+   {
+      "Country": "Togo",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 6,
+      "LifeExpectancy": 62.74,
+      "LifeExpectancyWomen": 62.92,
+      "LifeExpectancyMen": 62.54,
+      "CODE": "TGO"
+   },
+   {
+      "Country": "Thailand",
+      "Year": 2023,
+      "PublicHealthSpendingPerCapita": 242,
+      "LifeExpectancy": 76.41,
+      "LifeExpectancyWomen": 80.86,
+      "LifeExpectancyMen": 72.16,
+      "CODE": "THA"
+   },
+   {
+      "Country": "Tajikistan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 17,
+      "LifeExpectancy": 71.79,
+      "LifeExpectancyWomen": 73.98,
+      "LifeExpectancyMen": 69.57,
+      "CODE": "TJK"
+   },
+   {
+      "Country": "Timor-Leste",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 120,
+      "LifeExpectancy": 67.69,
+      "LifeExpectancyWomen": 69.44,
+      "LifeExpectancyMen": 66.07,
+      "CODE": "TLS"
+   },
+   {
+      "Country": "Turkmenistan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 82,
+      "LifeExpectancy": 70.07,
+      "LifeExpectancyWomen": 72.84,
+      "LifeExpectancyMen": 66.87,
+      "CODE": "TKM"
+   },
+   {
+      "Country": "Tunisia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 143,
+      "LifeExpectancy": 76.51,
+      "LifeExpectancyWomen": 79.15,
+      "LifeExpectancyMen": 73.92,
+      "CODE": "TUN"
+   },
+   {
+      "Country": "Tonga",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 175,
+      "LifeExpectancy": 72.90,
+      "LifeExpectancyWomen": 76.41,
+      "LifeExpectancyMen": 69.37,
+      "CODE": "TON"
+   },
+   {
+      "Country": "Turkey",
+      "Year": 2024,
+      "PublicHealthSpendingPerCapita": 522,
+      "LifeExpectancy": 77.30,
+      "LifeExpectancyWomen": 79.80,
+      "LifeExpectancyMen": 74.80,
+      "CODE": "TUR"
+   },
+   {
+      "Country": "Trinidad and Tobago",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 546,
+      "LifeExpectancy": 73.49,
+      "LifeExpectancyWomen": 76.68,
+      "LifeExpectancyMen": 70.38,
+      "CODE": "TTO"
+   },
+   {
+      "Country": "Tuvalu",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 747,
+      "LifeExpectancy": 67.11,
+      "LifeExpectancyWomen": 70.70,
+      "LifeExpectancyMen": 63.77,
+      "CODE": "TUV"
+   },
+   {
+      "Country": "Tanzania",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 11,
+      "LifeExpectancy": 67.00,
+      "LifeExpectancyWomen": 69.78,
+      "LifeExpectancyMen": 64.20,
+      "CODE": "TZA"
+   },
+   {
+      "Country": "Ukraine",
+      "Year": 2021,
+      "PublicHealthSpendingPerCapita": 175,
+      "LifeExpectancy": 73.42,
+      "LifeExpectancyWomen": 80.20,
+      "LifeExpectancyMen": 66.90,
+      "CODE": "UKR"
+   },
+   {
+      "Country": "Uganda",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 8,
+      "LifeExpectancy": 68.25,
+      "LifeExpectancyWomen": 71.12,
+      "LifeExpectancyMen": 65.27,
+      "CODE": "UGA"
+   },
+   {
+      "Country": "Uruguay",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 1242,
+      "LifeExpectancy": 78.14,
+      "LifeExpectancyWomen": 81.92,
+      "LifeExpectancyMen": 74.19,
+      "CODE": "URY"
+   },
+   {
+      "Country": "Uzbekistan",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 55,
+      "LifeExpectancy": 72.39,
+      "LifeExpectancyWomen": 75.40,
+      "LifeExpectancyMen": 69.45,
+      "CODE": "UZB"
+   },
+   {
+      "Country": "Saint Vincent and the Grenadines",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 285,
+      "LifeExpectancy": 71.23,
+      "LifeExpectancyWomen": 74.32,
+      "LifeExpectancyMen": 68.66,
+      "CODE": "VCT"
+   },
+   {
+      "Country": "Venezuela",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 90,
+      "LifeExpectancy": 72.51,
+      "LifeExpectancyWomen": 76.50,
+      "LifeExpectancyMen": 68.72,
+      "CODE": "VEN"
+   },
+   {
+      "Country": "Vietnam",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 78,
+      "LifeExpectancy": 74.59,
+      "LifeExpectancyWomen": 79.26,
+      "LifeExpectancyMen": 69.88,
+      "CODE": "VNM"
+   },
+   {
+      "Country": "Vanuatu",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 52,
+      "LifeExpectancy": 71.48,
+      "LifeExpectancyWomen": 73.93,
+      "LifeExpectancyMen": 69.45,
+      "CODE": "VUT"
+   },
+   {
+      "Country": "Samoa",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 179,
+      "LifeExpectancy": 71.70,
+      "LifeExpectancyWomen": 73.66,
+      "LifeExpectancyMen": 69.86,
+      "CODE": "WSM"
+   },
+   {
+      "Country": "Yemen",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 2,
+      "LifeExpectancy": 69.30,
+      "LifeExpectancyWomen": 71.39,
+      "LifeExpectancyMen": 67.24,
+      "CODE": "YEM"
+   },
+   {
+      "Country": "South Africa",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 253,
+      "LifeExpectancy": 66.14,
+      "LifeExpectancyWomen": 69.60,
+      "LifeExpectancyMen": 62.61,
+      "CODE": "ZAF"
+   },
+   {
+      "Country": "Zambia",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 34,
+      "LifeExpectancy": 66.35,
+      "LifeExpectancyWomen": 68.67,
+      "LifeExpectancyMen": 63.94,
+      "CODE": "ZMB"
+   },
+   {
+      "Country": "Zimbabwe",
+      "Year": 2022,
+      "PublicHealthSpendingPerCapita": 0,
+      "LifeExpectancy": 62.78,
+      "LifeExpectancyWomen": 65.01,
+      "LifeExpectancyMen": 60.23,
+      "CODE": "ZWE"
+   }
+]
